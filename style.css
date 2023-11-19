@@ -1,0 +1,85 @@
+body{
+    background-image: url("kids-drawing-popular-objects-drawing-set_651766-294.avif");
+    font-family: 'Poppins', sans-serif;;
+    color: black;
+}
+
+#btn_show_sketch{
+	background: none;
+    border: 2.5px solid rgb(0, 0, 0);
+	color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    width: 170px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#btn_show_sketch:hover{
+	color: #ffffff;
+    border: 2.5px solid rgb(0, 0, 0);;
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+#score_value{
+    font-size: 20px;
+    float: left;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+#time_limit_of_every_sketch{
+    font-size: 20px;
+    float: right;
+    margin-right: 100px;
+    font-weight: bold;
+}
+
+#identified_sketch_name{
+    font-size: 20px;
+    color: #000;
+}
+
+#confidence_level_of_sketch{
+    font-size: 20px;
+    color: #000;
+}
+
+#name_of_sketch_to_be_drawn{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+#btn_show_sketch{
+    float: right;
+    margin-right: 20px;
+}
+
+canvas{
+    border:5px solid rgb(84, 84, 84);
+    border-radius:20px;
+    margin-top:350px;
+    box-shadow:5px 5px 5px grey;
+    box-shadow: 1px 1px 38px #ffffff;
+    animation-name: example;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+
+  from {box-shadow: 1px 1px 38px rgb(27, 27, 27);}
+  to {box-shadow: 1px 1px 38px white;}
+}
